@@ -1,4 +1,6 @@
 #!/bin/bash
+set -e
+
 while true
 do
   echo "Waiting for device"
@@ -7,10 +9,10 @@ do
   done
 
   sleep 1
-  ./rkdeveloptool_linux db rk3308_loader_uart0_m0_emmc_port_support_sd_20190717.bin &&
-    sleep 2 &&
-    ./rkdeveloptool_linux wl 0x40 "idbloader.img" &&
-    ./rkdeveloptool_linux rd
+  ./rkdeveloptool_linux db rk3308_loader_uart0_m0_emmc_port_support_sd_20190717.bin
+  sleep 2
+  ./rkdeveloptool_linux wl 0x40 "idbloader.img"
+  ./rkdeveloptool_linux rd
   echo -e "\a"
   sleep 2
 done
