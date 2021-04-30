@@ -7,7 +7,8 @@ tool on the devices from the first batch!
 
 ## MacOS (tested on Catalina and Big Sur)
 
-- Please first install HomeBrew: https://brew.sh/
+- Please first install HomeBrew from your terminal:
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 - Install libusb and lsusb by running "brew install lsusb libusb"
 - Run sudo ./flash_macos.sh and follow the instructions.
 
