@@ -12,7 +12,7 @@ You do not need to use the tool on the devices from the first batch!
 - Run ./flash_mac.sh and follow the instructions.
 
 ## Linux (tested on Ubuntu 20.04)
-- libusb and lsusb should already be installed, if not install them :)
+- libusb and lsusb should already be installed, if not, install them :)
 - Run ./flash_linux.sh and follow the instructions
 
 ## Windows
