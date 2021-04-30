@@ -19,3 +19,5 @@ sleep 1
 sleep 2
 ./bin/rkdeveloptool_linux wl 0x40 ./bin/idbloader.img
 ./bin/rkdeveloptool_linux rd
+
+echo Device patched successfully, you can now use the device.

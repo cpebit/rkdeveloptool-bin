@@ -66,5 +66,5 @@ echo Waiting for device to re-enumerate
 powershell -c "while ($(GET-WMIOBJECT Win32_PnPEntity | Where { $_.DeviceID -like 'USB\VID_2207&PID_330E*' } | measure).count -eq 0) {Start-Sleep -s 1}"
 .\bin\rkdeveloptool.exe wl 0x40 .\bin\idbloader.img
 .\bin\rkdeveloptool.exe rd
-echo Device patched successfully, you can now use the device normally
+echo Device patched successfully, you can now use the device.
 pause
