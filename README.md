@@ -3,7 +3,7 @@
 This is the tool to fix the DRAM related issues of the second batch of AAWireless devices. You do not need to use the
 tool on the devices from the first batch!
 
-> :warning: If you do not feel comfortable with any of this, then please don't do it, please contact support at https://cpeb.freshdesk.com/
+> :warning: Please first try to OTA update to version 1.2.3, then you don't need this fix anymore. Only use this tool if the device is too unstable to be able too apply the OTA update. 
 
 # Instructions
 
