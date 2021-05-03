@@ -3,7 +3,7 @@
 This is the tool to fix the DRAM related issues of the second batch of AAWireless devices. You do not need to use the
 tool on the devices from the first batch!
 
-> :warning: Please first try to OTA update to version 1.2.3, then you don't need this fix anymore. Only use this tool if the device is too unstable to be able too apply the OTA update. 
+> :warning: Please first try to OTA update to version 1.2.3, then you don't need this fix anymore. Only use this tool if the device is too unstable to be able to apply the OTA update. 
 
 # Instructions
 
