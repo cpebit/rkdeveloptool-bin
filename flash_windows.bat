@@ -16,7 +16,7 @@ echo Device found.
 .\bin\rkdeveloptool.exe db .\bin\%1.bin
 echo Waiting for device to re-enumerate.
 powershell -c "while ($(GET-WMIOBJECT Win32_PnPEntity | Where { $_.DeviceID -like 'USB\VID_2207&PID_%usb_pid%*' } | measure).count -eq 0) {Start-Sleep -s 1}"
-.\bin\rkdeveloptool.exe wl 0 %1
+.\bin\rkdeveloptool.exe wl 0 %2
 .\bin\rkdeveloptool.exe rd
 echo Device flashed successfully.
 pause
