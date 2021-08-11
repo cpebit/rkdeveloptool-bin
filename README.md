@@ -13,7 +13,7 @@ Run `./flash_linux.sh <image file>`
 ## Windows
 
 ### Installation
-Run install_driver_windows.bat
+Follow these instructions: https://github.com/Snirpo/rkdeveloptool/wiki/Setup-for-Windows
 
 ### Flashing
 Run `flash_windows.bat <image file>`
