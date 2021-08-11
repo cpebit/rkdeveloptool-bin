@@ -6,7 +6,7 @@ if "%1"=="rk3308" (
 ) else if "%1"=="rv1109" (
   set usb_pid="111B"
 ) else (
-  echo Invalid device type %1
+  echo Invalid device type: %1
   exit /b 1
 )
 
