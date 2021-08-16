@@ -20,14 +20,7 @@ Download and install the Microsoft Visual C++ Redistributable: https://aka.ms/vs
 
 ### USB driver setup (you only have to do this once)
 
-- For setting up the generic usb driver we need Zadig, download here: https://zadig.akeo.ie/
-- Start Zadig.
-- Put AAWireless in maskrom mode, see below.
-- In Zadig do: Options --> list all devices.
-- Select "Unknown device xxx" and validate the USB id is 2207 330E for the RK3308 based boards or 2207 110B for the
-  RV1109 based boards.
-- Leave everything default (WinUSB driver) and click "Install driver"
-- Wait a while until the generic USB driver is installed and you're done.
+Run driver/<rv1109 or rk3308>/InstallDriver.exe
 
 ### Flashing
 
