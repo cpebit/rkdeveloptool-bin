@@ -20,7 +20,7 @@ Download and install the Microsoft Visual C++ Redistributable: https://aka.ms/vs
 
 ### USB driver setup (you only have to do this once)
 
-Run driver/<rv1109 or rk3308>/InstallDriver.exe
+Run `driver/<rv1109 or rk3308>/InstallDriver.exe`
 
 ### Flashing
 
